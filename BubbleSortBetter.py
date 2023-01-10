@@ -18,7 +18,6 @@ def BubbleSort(List):
     switch = False
     
     #Käydään listan elementit läpi
-    # -1 Lisätään, jotta vältytään yhdeltä ylimääräiseltä läpikäyntikerralta
     for j in range(n-1):
         for i in range(n-j-1):
             #Vaihdetaan elementtien paikat, jos tarkasteltava elementti on isompi kuin seuraava elementti:
