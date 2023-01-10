@@ -24,8 +24,6 @@ def BubbleSort(List):
             if (List[i] > List[i + 1]):
                 switch = True
                 List[i], List[i + 1] = List[i + 1], List[i]
-                #Tulostetaan lista jokaisen iteraation jälkeen.
-                #print(List)
         #Jos listalle ei tarvitse tehdä yhtään vaihtoa, niin poistutaan loopista suoraan.
         if not switch:
             return
