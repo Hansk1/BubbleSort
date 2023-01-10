@@ -1,8 +1,6 @@
 import random
 import time
 
-#from BubbleSort import List
-
 #Funktio randomisoidun listan luontiin:
 def CreateList(i):
     RandomizedList = []
